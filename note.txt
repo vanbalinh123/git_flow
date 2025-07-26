@@ -1,1 +1,9 @@
 git init: biến 1 thư mục bình thường git repository
+
+- git commit --amend -m "message": chỉnh sửa message trực tiếp và gộp với commit gần nhất
+- git commt --amend: mở ra giao diện cho mình sửa commit
+  + Sau khi chỉnh sửa message xong, thì bấm phím esc
+  + sau đó bấm :wq rồi sau đó enter thì sẽ commit thành công
+-git commit --amend --no-edit : không chỉnh sửa message
+
+github
