@@ -1,0 +1,1 @@
+git init: biến 1 thư mục bình thường git repository
