@@ -13,4 +13,4 @@ Nhánh main ở trên Github (origin)
 
 Nhánh develop trên Github (origin)
 - Vai trò: là nhánh tích hợp nhánh chính, phản ánh trạng thái code mới nhất đã được phát triển
-- cập nhật: chủ yếu nhận code từ nhánh feature ()
+- cập nhật: chủ yếu nhận code từ nhánh feature (thông qua Pull request) và các nhánh release và hotfix (phải đảm bảo nhánh release và hotfix đã merge vào main rồi mới merge vào develop)
