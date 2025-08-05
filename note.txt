@@ -1,9 +1,16 @@
-git init: biến 1 thư mục bình thường git repository
+Git Flow
 
-- git commit --amend -m "message": chỉnh sửa message trực tiếp và gộp với commit gần nhất
-- git commt --amend: mở ra giao diện cho mình sửa commit
-  + Sau khi chỉnh sửa message xong, thì bấm phím esc
-  + sau đó bấm :wq rồi sau đó enter thì sẽ commit thành công
--git commit --amend --no-edit : không chỉnh sửa message
 
-github
+Production: là sản phẩm đã phát hành và có user sử dụng
+
+Nhánh main ở trên Github (origin)
+- Vai trò: Phản ánh chính xác những đoạn code đang chạy trên môi trường Production. Nó là phải ở trạng thái ổn định nhất
+- cập nhật: chỉ cập nhật thông qua merge từ nhánh release hoặc là hotfix (thông thường sẽ thông pull request đã được phê duyệt)
+- bảo vệ: nhánh main nên được cấu hình là protected branch
+    - ngăn chặn việc push code trực tiếp lên nhánh main
+    - yêu cầu em phải tạo Pull request để review, nếu chấp thuận thì mới merge vào main
+
+
+Nhánh develop trên Github (origin)
+- Vai trò: là nhánh tích hợp nhánh chính, phản ánh trạng thái code mới nhất đã được phát triển
+- cập nhật: chủ yếu nhận code từ nhánh feature ()
